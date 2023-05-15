@@ -5,11 +5,13 @@
 body {
   color:#444;
   font-family: sans-serif;
+  position: relative;
 }
 .main-header {
   background-color: #f7f7f7;
     padding: 20px 40px;
     margin-bottom: 60px;
+    /* height: 80px; */
 }
 .post-header {
   margin-bottom: 40px;
@@ -17,6 +19,13 @@ body {
 h1,h2,h3 {
   color: #1098ad;
 }
+.container {
+  width:800px;
+  /* margin-right: auto;
+  margin-left: auto; */
+  margin: 0 auto;
+}
+
  
 h1{
   font-size: 26px;
@@ -48,8 +57,9 @@ h4 {
   text-transform: uppercase;
   text-align: center;
 }
-ul,ol {
-  margin-left :50 px;
+
+.ul-margin {
+  margin-left: 50px;
 }
 
 li {
@@ -124,4 +134,21 @@ aside {
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
+  width: 500px;
+}
+nav a:link {
+  margin: 20px;
+  padding: 20px;
+}
+.postimage {
+  width: 100%;
+  height: auto;
+}
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
